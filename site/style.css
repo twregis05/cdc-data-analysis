@@ -1,0 +1,7 @@
+/* Minimal styling; to be restyled later. */
+body { font-family: system-ui, sans-serif; line-height: 1.5; margin: 0; color: #222; }
+header, main, footer { max-width: 60rem; margin: 0 auto; padding: 1rem; }
+nav ul { list-style: none; display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; padding: 0; margin: 0; }
+img, iframe { max-width: 100%; height: auto; }
+table { border-collapse: collapse; }
+th, td { border: 1px solid #ccc; padding: 0.25rem 0.5rem; }

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.egg-info/
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Rapp.history
+renv/library/
+renv/staging/
+renv/local/
+# Notebooks
+.ipynb_checkpoints/
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Large data: raw contents are not committed (see data/raw/README.md)
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/README.md
+# Stray large files placed directly in data/
+data/*.xpt
+data/*.csv
+data/*.zip
+# Saved models
+model/artifacts/

@@ -1,0 +1,6 @@
+# Run once from the project root in R: source("setup_r.R")
+# Restore on another machine afterwards with: renv::restore()
+if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+renv::init(bare = TRUE)
+renv::install(c("tidyverse", "ggplot2", "tidymodels", "broom"))
+renv::snapshot()
